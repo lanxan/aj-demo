@@ -35,6 +35,14 @@ php artisan key:generate
 php artisan migrate
 ```
 
+### （Option）還原專案內資料庫
+```
+cd databases/sql
+
+mysql -u username -p test < users.sql
+mysql -u username -p test < star.sql
+```
+
 ## Launch
 ```
 php artisan serve
