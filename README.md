@@ -47,3 +47,8 @@ mysql -u username -p test < star.sql
 ```
 php artisan serve
 ```
+
+### 手動執行爬蟲
+```
+php artisan test:spider
+```
